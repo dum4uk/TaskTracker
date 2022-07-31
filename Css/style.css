@@ -1,0 +1,150 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Manrope', sans-serif;
+}
+
+img {
+    display: block;
+}
+
+
+/* Header */
+
+.header {
+    display: flex;
+    align-items: center;
+    height: 73px;
+    border-bottom: 1px solid #e5e9fa;
+}
+
+.header-container {
+    width: 1110px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    margin-right: 40px;
+}
+
+.nav {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1;
+    color: #18191F;
+}
+
+.nav-link {
+    color: #18191F;
+    text-decoration: none;
+    margin-right: 32px;
+    cursor: pointer;
+}
+
+.nav-link:last-child {
+    margin-right: 0;
+}
+
+.nav-link:hover {
+    color: #8c30f5;
+}
+
+.store {
+    margin-left: auto;
+    display: flex;
+    column-gap: 12px;
+}
+
+.store a {
+    cursor: pointer;
+}
+
+
+/* Main */
+
+.main {}
+
+.main-container {
+    width: 1110px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 197px;
+    padding-bottom: 197px;
+    align-items: center;
+}
+
+.main-content {
+    width: 540px;
+}
+
+.main-header {
+    margin-top: 0;
+    margin-bottom: 16px;
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 1.36;
+    color: #18191F;
+}
+
+.main-content p {
+    margin-top: 0;
+    margin-bottom: 32px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.78;
+    color: #18191F;
+}
+
+.button {
+    display: inline-block;
+    padding-right: 35px;
+    padding-left: 35px;
+    height: 62px;
+    background: #8C30F5;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 62px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.button:hover {
+    opacity: 0.8;
+}
+
+
+/* Footer */
+
+.footer {
+    display: flex;
+    align-items: center;
+    height: 72px;
+    background-color: #0B0D17;
+    color: #D9DBE1;
+}
+
+.footer-container {
+    width: 1110px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-copyright {
+    font-size: 14px;
+}
+
+.footer-social {
+    display: flex;
+    column-gap: 16px;
+}
